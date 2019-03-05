@@ -46,3 +46,5 @@ This allows users to request uploads and it displays requests, which give the us
 
 This is the page that users are brought to after they opt to fulfill an upload request (requests.php), it simply takes in an archive file (TODO: and album art, maybe description?) and does the rest of the work for the user.
 
+Setup: 
+Simply put the upload and requests paget in your webroot and create the under-webroot directories as defined above. In addition, create a blank csv document for requests.csv. Make sure to give that and the uploads folder the proper permissions, do it asap to avoid headaches.
